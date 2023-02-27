@@ -1,6 +1,6 @@
 all: a.out
 
-a.out:
+a.out: main.cpp shapes.h
 	g++ -std=c++11 main.cpp
 
 test: a.out
